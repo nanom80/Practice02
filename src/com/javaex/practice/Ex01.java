@@ -11,7 +11,7 @@ public class Ex01 {
 		
 		int j = 0;
 		
-		if(j < 0) {
+		if(j < 0) { 
 			
 		}
 		
