@@ -1,8 +1,8 @@
-package com.javaex.practice;
+package com.javaex.practice02;
 
 import java.util.Scanner;
 
-public class Ex18 {
+public class Ex20 {
 	
 	public static void main(String[] args) {
 		
@@ -12,17 +12,14 @@ public class Ex18 {
 	    System.out.print("알파벳: ");
 	    String s = sc.nextLine();
 	    
-	    switch(s) {
-	    	case "a":
-	    		System.out.println("모음입니다.");
-	    		break;
-	    	case "b":
-	    		System.out.println("자음입니다.");
-	    		break;
-	    	default:
-	    		break;
-	    }
 	    
+	    if(s.equals("a")) {
+	    	System.out.println("모음입니다.");
+	    } else if (s.equals("b")) {
+	    	System.out.println("자음입니다.");
+	    } else {
+	    	System.out.println("영문 소문자를 입력해주세요.");
+	    }
 	    
 	    sc.close();
 	}

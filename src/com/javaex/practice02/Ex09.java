@@ -1,8 +1,8 @@
-package com.javaex.practice;
+package com.javaex.practice02;
 
 import java.util.Scanner;
 
-public class Ex19 {
+public class Ex09 {
 	
 	public static void main(String[] args) {
 		
